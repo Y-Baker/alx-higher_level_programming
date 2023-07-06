@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+
 def complex_delete(a_dictionary, value):
-    list_keys = list(a_dictionary.keys())
-
-    for value_dic in list_keys:
-        if value == a_dictionary.get(value_dic):
-            del a_dictionary[value_dic]
-
-    return (a_dictionary)
+    deleted_keys = []
+    for key in a_dictionary:
+        if a_dictionary.get(key) == value:
+            deleted_keys.append(key)
+    list(map(lambda x: a_dictionary.pop(x), deleted_keys))
+    return a_dictionary
