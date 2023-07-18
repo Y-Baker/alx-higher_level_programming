@@ -12,7 +12,7 @@ class Square:
             position (tuble (2 int)): the position of the new sqare
         """
         self.__size = size
-        self.__position = position
+        self.position = position
 
     @property
     def size(self):
