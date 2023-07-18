@@ -67,7 +67,7 @@ class Square:
         """return square by '#' by the size"""
         re = ""
         if self.__size == 0:
-            return (re + '\n')
+            return (re)
 
         for n in range(self.__position[1]):
             re += '\n'
