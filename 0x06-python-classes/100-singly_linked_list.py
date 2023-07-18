@@ -72,7 +72,7 @@ class SinglyLinkedList:
                     head = tmp
                     continue
             else:
-                if head.data < value:
+                if head.data <= value:
                     head.next_node = new
                     new.next_node = None
                     break
