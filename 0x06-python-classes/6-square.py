@@ -49,6 +49,10 @@ class Square:
 
     def my_print(self):
         """print square by '#' by the size"""
+        if self.__size == 0:
+            print("")
+            return
+
         for n in range(self.__position[1]):
             print()
 
@@ -57,6 +61,4 @@ class Square:
                 print(' ', end="")
             for col in range(self.__size):
                 print('#', end="")
-            print()
-        if self.__size == 0:
             print()
