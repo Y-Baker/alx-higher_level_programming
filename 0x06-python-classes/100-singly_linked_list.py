@@ -11,7 +11,7 @@ class Node:
             data (int) the data that the node carry
             next_node (node) the next node in the linked list
         """
-        self.__data = data
+        self.data = data
         self.next_node = next_node
 
     @property
