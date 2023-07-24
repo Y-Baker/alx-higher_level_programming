@@ -31,7 +31,8 @@ def matrix_divided(matrix, div):
     new = [[round((num / div), 2) for num in row_1] for row_1 in matrix]
     return new
 
+
 def error():
     """error 1"""
-    raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
-
+    raise TypeError("matrix must be a matrix (list of lists) of "
+                    "integers/floats")
