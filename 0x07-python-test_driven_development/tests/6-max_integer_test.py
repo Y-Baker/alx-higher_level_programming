@@ -1,37 +1,42 @@
 #!/usr/bin/python3
-"""Unittests for max_integer([..])."""
+
+"""Unit tests of max int function"""
 
 import unittest
 max_integer = __import__('6-max_integer').max_integer
 
-
 class TestMaxInteger(unittest.TestCase):
-    """Define unittests for max_integer([..])."""
+    """Define unit tests for max int in list"""
 
-    def test_ordered_list(self):
-        """Test an ordered list of integers."""
-        ordered = [1, 2, 3, 4]
-        self.assertEqual(max_integer(ordered), 4)
+    def test_orderd_list(self):
+        """Test an orderd list"""
+        list = [1, 2, 3, 4]
+        self.assertEqual(max_integer(list), 4)
 
-    def test_unordered_list(self):
-        """Test an unordered list of integers."""
-        unordered = [1, 2, 4, 3]
-        self.assertEqual(max_integer(unordered), 4)
+    def test_not_orderd(self):
+        """Test not orderd list"""
+        list = [5, 8, 2, 33]
+        self.assertEqual(max_integer(list), 33)
 
-    def test_max_at_begginning(self):
-        """Test a list with a beginning max value."""
-        max_at_beginning = [4, 3, 2, 1]
-        self.assertEqual(max_integer(max_at_beginning), 4)
+    def test_negative_number(self):
+        """Test list have negative number"""
+        list = [-43, 47, -44, -1, -2]
+        self.assertEqual(max_integer(list), 47)
 
-    def test_empty_list(self):
-        """Test an empty list."""
-        empty = []
-        self.assertEqual(max_integer(empty), None)
+    def test_all_negative(self):
+        """Test list that all numbers are negative"""
+        list = [-5, -3, -45, -12]
+        self.assertEqual(max_integer(list), -3)
 
-    def test_one_element_list(self):
-        """Test a list with a single element."""
-        one_element = [7]
-        self.assertEqual(max_integer(one_element), 7)
+    def test_emety_list(self):
+        """Test emety list"""
+        list = []
+        self.assertEqual(max_integer(list), None)
+
+    def test_single_list(self):
+        """Test a List That have one element"""
+        list = [7]
+        self.assertEqual(max_integer(list), 7)
 
     def test_floats(self):
         """Test a list of floats."""
@@ -56,6 +61,5 @@ class TestMaxInteger(unittest.TestCase):
     def test_empty_string(self):
         """Test an empty string."""
         self.assertEqual(max_integer(""), None)
-
 if __name__ == '__main__':
     unittest.main()
