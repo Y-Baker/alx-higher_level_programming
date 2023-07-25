@@ -18,6 +18,11 @@ class TestMaxInteger(unittest.TestCase):
         list = [5, 8, 2, 33]
         self.assertEqual(max_integer(list), 33)
 
+    def test_max_beginning(self):
+        """Test a list with max at the begain"""
+        list = [100, 3, 5]
+        self.assertEqual(max_integer(list), 100)
+
     def test_negative_number(self):
         """Test list have negative number"""
         list = [-43, 47, -44, -1, -2]
