@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class."""
-
+"""First Module"""
 
 class Rectangle:
-    """Represent a rectangle."""
+    """New Opject Rectangle"""
     pass
