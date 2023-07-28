@@ -7,7 +7,7 @@ class Rectangle:
     number_of_instances = 0
 
     @classmethod
-    def number_of_instances():
+    def number():
         pass
     def __init__(self, width=0, height=0):
         """
@@ -78,5 +78,5 @@ class Rectangle:
 
     def __del__(self):
         """Called when the object is deleted"""
-        type(self).number_of_instances -= 1
+        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
