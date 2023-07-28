@@ -68,7 +68,7 @@ class Rectangle:
         shape = []
         for row in range(self.__height):
             for col in range(self.__width):
-                shape.append(str(Rectangle.print_symbol))
+                shape.append(str(self.print_symbol))
             shape.append('\n')
         shape.pop()
         return (''.join(shape))
