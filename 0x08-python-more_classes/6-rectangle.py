@@ -9,6 +9,7 @@ class Rectangle:
     @classmethod
     def number():
         pass
+
     def __init__(self, width=0, height=0):
         """
         Create New Rectangle
