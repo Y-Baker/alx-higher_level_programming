@@ -14,10 +14,12 @@ class Student:
 
     def to_json(self, attrs=None):
         """Return Dictinart representation"""
-        if not attrs:
-            return self.__dict__
-        new_dict = dict()
-        for attr in sorted(attrs):
-            if attr in self.__dict__:
-                new_dict[attr] = self.__dict__[attr]
-        return new_dict
+        if (type(attrs) == list and
+            all(type(element) == str for element in attrs)):
+            new_dict = dict()
+            for attr in sorted(attrs):
+                if attr in self.__dict__:
+                    new_dict[attr] = self.__dict__[attr]
+            return new_dict
+
+        return self.__dict__
