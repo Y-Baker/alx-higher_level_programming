@@ -15,7 +15,7 @@ class Student:
     def to_json(self, attrs=None):
         """Return Dictinart representation"""
         if (type(attrs) == list and
-            all(type(element) == str for element in attrs)):
+                all(type(element) == str for element in attrs)):
             new_dict = dict()
             for attr in sorted(attrs):
                 if attr in self.__dict__:
