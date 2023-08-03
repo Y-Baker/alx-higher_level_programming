@@ -3,6 +3,7 @@
 """New Module for returns the JSON representation of an object"""
 import json
 
+
 def to_json_string(my_obj):
     """Convert py obj to str JSON"""
 
