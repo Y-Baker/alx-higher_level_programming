@@ -8,9 +8,10 @@ def append_after(filename="", search_string="", new_string=""):
 
     with open(filename, "r+") as f:
         list_of_lines = f.readlines()
+        to_write = list_of_lines.copy()
         for n, line in enumerate(list_of_lines):
             if search_string in line:
-                list_of_lines.insert(n + 1, new_string)
-        lines = "".join(list_of_lines)
+                to_write.insert(n + 1, new_string)
+        lines = "".join(to_write)
         f.seek(0)
         f.write(lines)
