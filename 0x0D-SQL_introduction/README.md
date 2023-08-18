@@ -41,7 +41,7 @@ $
 ```
 ## For Windows subsystem for linux(WSL) user
 ```
-$ service mysql start                                                   
+$ sudo service mysql start                                                   
  * Starting MySQL database server mysqld 
 $
 $ cat 0-list_databases.sql | mysql -uroot -p                               
