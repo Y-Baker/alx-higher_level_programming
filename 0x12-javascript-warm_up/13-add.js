@@ -1,4 +1,7 @@
 #!/usr/bin/node
-exports.add = function (a, b) {
+
+const newFun = function (a, b) {
   return (a + b);
 };
+
+exports.add = newFun;
