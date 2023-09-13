@@ -26,17 +26,13 @@ Files | Description
 [4-rectangle.js](./4-rectangle.js) | method called rotate() that exchanges the width and the height of the rectangle and double() that multiples the width and the height of the rectangle by 2
 [5-square.js](./5-square.js) | class Square that defines a square and inherits from Rectangle
 [6-square.js](./6-square.js) | instance method called charPrint(c) that prints the rectangle using the character c
-[7-multi_c.js](./7-multi_c.js) | JS script that prints x times “C is fun”
-[8-square.js](./8-square.js) | JS script that prints a square
-[9-add.js](./9-add.js) | JS script that prints the addition of 2 integers
-[10-factorial.js](./10-factorial.js) | JS script that computes and prints a factorial
-[11-second_biggest.js](./11-second_biggest.js) | JS script that searches the second biggest integer in the list of arguments
-[12-object.js](./12-object.js) | JS script to replace the value 12 with 89
-[13-add.js](./13-add.js) | JS function that returns the addition of 2 integers
-[100-let_me_const.js](./100-let_me_const.js) | JS file that modifies the value of myVar (in another file) to 333
-[101-call_me_moby.js](./101-call_me_moby.js) | JS function that executes x times a function
-[102-add_me_maybe.js](./102-add_me_maybe.js) | JS function that increments and calls a function
-[103-object_fct.js](./103-object_fct.js) | JS script that adds a new function incr that increments the integer value of the object myObject
+[7-occurrences.js](./7-occurrences.js) | returns the number of occurrences in a list
+[8-esrever.js](./8-esrever.js) | returns the reversed version of a list:
+[9-logme.js](./9-logme.js) | prints the number of arguments already printed and the new argument value
+[10-converter.js](./10-converter.js) | converts a number from base 10 to another base passed as argument
+[100-map.js](./100-map.js) | imports an array and computes a new array
+[101-sorted.js](./101-sorted.js) | imports a dictionary of occurrences by user id and computes a dictionary of user ids by occurrence
+[102-concat.js](./102-concat.js) | 102-concat.js
 
 ## Authors :black_nib:
 
