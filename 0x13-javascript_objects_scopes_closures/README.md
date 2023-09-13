@@ -24,8 +24,8 @@ Files | Description
 [2-rectangle.js](./2-rectangle.js) | If w or h is equal to 0 or not a positive integer, create an empty object
 [3-rectangle.js](./3-rectangle.js) | method called print() that prints the rectangle using the character X
 [4-rectangle.js](./4-rectangle.js) | method called rotate() that exchanges the width and the height of the rectangle and double() that multiples the width and the height of the rectangle by 2
-[5-to_integer.js](./5-to_integer.js) | JS script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer
-[6-multi_languages_loop.js](./6-multi_languages_loop.js) | JS script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
+[5-square.js](./5-square.js) | class Square that defines a square and inherits from Rectangle
+[6-square.js](./6-square.js) | instance method called charPrint(c) that prints the rectangle using the character c
 [7-multi_c.js](./7-multi_c.js) | JS script that prints x times “C is fun”
 [8-square.js](./8-square.js) | JS script that prints a square
 [9-add.js](./9-add.js) | JS script that prints the addition of 2 integers
