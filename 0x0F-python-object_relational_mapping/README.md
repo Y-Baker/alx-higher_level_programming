@@ -44,6 +44,7 @@ $ python3
 Files | Description
 ----- | -----------
 [0-select_states.py](./0-select_states.py) | lists all states from the database hbtn_0e_0_usa
+[1-filter_states.py](./1-filter_states.py) | lists all states with a name starting with N from the database hbtn_0e_0_usa
 
 
 ## Authors :black_nib:
