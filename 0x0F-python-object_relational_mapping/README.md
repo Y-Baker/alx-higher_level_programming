@@ -47,6 +47,7 @@ Files | Description
 [1-filter_states.py](./1-filter_states.py) | lists all states with a name starting with N from the database hbtn_0e_0_usa
 [2-my_filter_states.py](./2-my_filter_states.py) | displays all values in the states table of hbtn_0e_0_usa where name matches the argument
 [3-my_safe_filter_states.py](./3-my_safe_filter_states.py) | same as file 2-my_filter_states.py but safe from SQL injection
+[4-cities_by_state.py](./4-cities_by_state.py) | lists all cities from the database hbtn_0e_4_usa
 
 ## Authors :black_nib:
 
