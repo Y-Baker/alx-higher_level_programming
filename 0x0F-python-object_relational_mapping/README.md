@@ -48,6 +48,7 @@ Files | Description
 [2-my_filter_states.py](./2-my_filter_states.py) | displays all values in the states table of hbtn_0e_0_usa where name matches the argument
 [3-my_safe_filter_states.py](./3-my_safe_filter_states.py) | same as file 2-my_filter_states.py but safe from SQL injection
 [4-cities_by_state.py](./4-cities_by_state.py) | lists all cities from the database hbtn_0e_4_usa
+[5-filter_cities.py](./5-filter_cities.py) | lists all cities of state giving as argument, using the database hbtn_0e_4_usa
 
 ## Authors :black_nib:
 
