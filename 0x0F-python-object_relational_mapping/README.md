@@ -43,6 +43,7 @@ $ python3
 ## Table of Contents
 Files | Description
 ----- | -----------
+[0-select_states.py](./0-select_states.py) | lists all states from the database hbtn_0e_0_usa
 
 
 ## Authors :black_nib:
