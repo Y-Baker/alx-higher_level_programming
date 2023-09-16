@@ -72,9 +72,9 @@ Files | Description
 ----- | -----------
 [relationship_state.py](./relationship_state.py) | Define a Table states with relationship with cities table
 [relationship_city.py](./relationship_city.py) | Define a Table cities with ForeignKey from states table
-[6-model_state.py](./6-model_state.py) | Create the table states
-[6-model_state.py](./6-model_state.py) | Create the table states
 [100-relationship_states_cities.py](./100-relationship_states_cities.py) | create a State with a City and save to a database
+[101-relationship_states_cities_list.py](./101-relationship_states_cities_list.py) | lists all State objects, and corresponding City objects
+[102-relationship_cities_states_list.py](./102-relationship_cities_states_list.py) | lists all City objects by using relationship to access to the State linked to the City
 
 ## Authors :black_nib:
 
