@@ -7,6 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 meta = MetaData()
 Base = declarative_base(metadata=meta)
 
+
 class City(Base):
     """City Class links to the MySQL table states"""
     __tablename__ = 'cities'
