@@ -40,7 +40,7 @@ $ python3
 ```
 <br />
 
-## Table of Contents
+## Table of MySQLdb-Connect (without ORM)
 Files | Description
 ----- | -----------
 [0-select_states.py](./0-select_states.py) | lists all states from the database hbtn_0e_0_usa
@@ -49,6 +49,13 @@ Files | Description
 [3-my_safe_filter_states.py](./3-my_safe_filter_states.py) | same as file 2-my_filter_states.py but safe from SQL injection
 [4-cities_by_state.py](./4-cities_by_state.py) | lists all cities from the database hbtn_0e_4_usa
 [5-filter_cities.py](./5-filter_cities.py) | lists all cities of state giving as argument, using the database hbtn_0e_4_usa
+<br />
+
+## Table of SqlAlchemy (with ORM)
+Files | Description
+----- | -----------
+[model_state.py](./model_state.py) | Define a Table of the SQl by Class Inherted From Base = declarative_base()
+[6-model_state.py](./6-model_state.py) | Create the table states 
 
 ## Authors :black_nib:
 
