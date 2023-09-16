@@ -65,6 +65,16 @@ Files | Description
 [12-model_state_update_id_2.py](./12-model_state_update_id_2.py) | changes the name of a State object from the database
 [13-model_state_delete_a.py](./13-model_state_delete_a.py) | deletes all State objects with a name containing the letter <a>
 [14-model_city_fetch_by_state.py](./14-model_city_fetch_by_state.py) | prints all City objects from a database
+<br />
+
+## Table of Advanced (with ORM)
+Files | Description
+----- | -----------
+[relationship_state.py](./relationship_state.py) | Define a Table states with relationship with cities table
+[relationship_city.py](./relationship_city.py) | Define a Table cities with ForeignKey from states table
+[6-model_state.py](./6-model_state.py) | Create the table states
+[6-model_state.py](./6-model_state.py) | Create the table states
+[100-relationship_states_cities.py](./100-relationship_states_cities.py) | create a State with a City and save to a database
 
 ## Authors :black_nib:
 
