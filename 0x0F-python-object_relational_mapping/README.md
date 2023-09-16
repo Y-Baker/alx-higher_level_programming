@@ -54,7 +54,8 @@ Files | Description
 ## Table of SqlAlchemy (with ORM)
 Files | Description
 ----- | -----------
-[model_state.py](./model_state.py) | Define a Table of the SQl by Class Inherted From Base = declarative_base()
+[model_state.py](./model_state.py) | Define a Table states of the SQl by Class Inherted From Base = declarative_base()
+[model_city.py](./model_city.py) | Define a Table cities of the SQl by Class Inherted From Base = declarative_base()
 [6-model_state.py](./6-model_state.py) | Create the table states
 [7-model_state_fetch_all.py](./7-model_state_fetch_all.py) | lists all State objects from a database
 [8-model_state_fetch_first.py](./8-model_state_fetch_first.py) | prints the first State object from a database
@@ -63,6 +64,7 @@ Files | Description
 [11-model_state_insert.py](./11-model_state_insert.py) | adds the State object “Louisiana” to a database
 [12-model_state_update_id_2.py](./12-model_state_update_id_2.py) | changes the name of a State object from the database
 [13-model_state_delete_a.py](./13-model_state_delete_a.py) | deletes all State objects with a name containing the letter <a>
+[14-model_city_fetch_by_state.py](./14-model_city_fetch_by_state.py) | prints all City objects from a database
 
 ## Authors :black_nib:
 
