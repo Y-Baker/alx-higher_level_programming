@@ -61,6 +61,7 @@ Files | Description
 [9-model_state_filter_a.py](./9-model_state_filter_a.py) | lists all State objects that contain the letter a from a database
 [10-model_state_my_get.py](./10-model_state_my_get.py) | prints the State object with the name passed as argument
 [11-model_state_insert.py](./11-model_state_insert.py) | adds the State object “Louisiana” to a database
+[12-model_state_update_id_2.py](./12-model_state_update_id_2.py) | changes the name of a State object from the database
 
 ## Authors :black_nib:
 
