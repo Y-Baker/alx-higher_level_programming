@@ -59,6 +59,7 @@ Files | Description
 [7-model_state_fetch_all.py](./7-model_state_fetch_all.py) | lists all State objects from a database
 [8-model_state_fetch_first.py](./8-model_state_fetch_first.py) | prints the first State object from a database
 [9-model_state_filter_a.py](./9-model_state_filter_a.py) | lists all State objects that contain the letter a from a database
+[10-model_state_my_get.py](./10-model_state_my_get.py) | prints the State object with the name passed as argument
 
 ## Authors :black_nib:
 
