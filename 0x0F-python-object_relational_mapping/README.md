@@ -55,7 +55,8 @@ Files | Description
 Files | Description
 ----- | -----------
 [model_state.py](./model_state.py) | Define a Table of the SQl by Class Inherted From Base = declarative_base()
-[6-model_state.py](./6-model_state.py) | Create the table states 
+[6-model_state.py](./6-model_state.py) | Create the table states
+[7-model_state_fetch_all.py](./7-model_state_fetch_all.py) | lists all State objects from the database hbtn_0e_6_usa
 
 ## Authors :black_nib:
 
