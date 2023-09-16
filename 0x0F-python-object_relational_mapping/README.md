@@ -62,6 +62,7 @@ Files | Description
 [10-model_state_my_get.py](./10-model_state_my_get.py) | prints the State object with the name passed as argument
 [11-model_state_insert.py](./11-model_state_insert.py) | adds the State object “Louisiana” to a database
 [12-model_state_update_id_2.py](./12-model_state_update_id_2.py) | changes the name of a State object from the database
+[13-model_state_delete_a.py](./13-model_state_delete_a.py) | deletes all State objects with a name containing the letter <a>
 
 ## Authors :black_nib:
 
