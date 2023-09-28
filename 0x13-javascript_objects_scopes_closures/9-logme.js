@@ -1,7 +1,11 @@
 #!/usr/bin/node
-let narg = 0;
 
-exports.logMe = function (item) {
-  console.log(narg + ': ' + item);
-  narg++;
-};
+function cover () {
+  let counter = 0;
+  return function (item) {
+    console.log(counter + ': ' + item);
+    counter++;
+  };
+}
+
+exports.logMe = cover();
