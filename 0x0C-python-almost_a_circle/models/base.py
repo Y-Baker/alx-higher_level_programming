@@ -10,6 +10,18 @@ class Base:
     """The Base Class"""
     __nb_objects = 0
 
+    def __init__(self, id=None):
+        """
+        Initialize a new Base Object
+        Args:
+        id: int
+        """
+        if id:
+            self.id = id
+        else:
+            Base.__nb_objects += 1
+            self.id = Base.__nb_objects
+
     @staticmethod
     def draw(list_rectangles, list_squares):
         """draw the rectangle and squares with turtle module"""
@@ -142,15 +154,3 @@ class Base:
                 return [cls.create(**d) for d in list_dicts]
         except IOError:
             return []
-
-    def __init__(self, id=None):
-        """
-        Initialize a new Base Object
-        Args:
-        id: int
-        """
-        if id:
-            self.id = id
-        else:
-            Base.__nb_objects += 1
-            self.id = Base.__nb_objects
