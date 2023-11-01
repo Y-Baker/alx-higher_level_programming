@@ -3,8 +3,8 @@
 const request = require('request');
 
 const apiUrl = process.argv[2];
+
 request(apiUrl, (err, res, body) => {
-  console.log('here');
   if (!err && res.statusCode === 200) {
     const dict = {};
     body = JSON.parse(body);
