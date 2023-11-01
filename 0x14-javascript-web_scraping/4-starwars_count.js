@@ -2,7 +2,7 @@
 
 const request = require('request');
 
-const apiUrl = 'https://swapi-api.alx-tools.com/api/films/';
+const apiUrl = process.argv[2];
 const character = { id: 18, name: 'Wedge Antilles' };
 
 request(apiUrl, (err, res, body) => {
