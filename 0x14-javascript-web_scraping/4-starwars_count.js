@@ -18,5 +18,7 @@ request(apiUrl, (err, res, body) => {
       }
     }
     console.log(count);
+  } else {
+    console.log(err);
   }
 });
